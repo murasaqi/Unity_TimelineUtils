@@ -1,0 +1,13 @@
+{
+  "name": "com.muraasqi.timelineutils",
+  "displayName": "Timeline Utils",
+  "version": "0.1.0",
+  "unity": "2021.2",
+  "description": "Timeline utils",
+  "keywords": [
+    "Script",
+    "editorextensions"
+  ],
+  "dependencies": {
+  }
+}

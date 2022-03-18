@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="TimelineDebugger.uss" />
+    <ui:Label text="Label" display-tooltip-when-elided="true" />
+    <uie:ObjectField name="PlayableDirectorField" type="UnityEngine.GameObject, UnityEngine.CoreModule" binding-path="icone" label="Object" allow-scene-objects="true" />
+    <ui:ScrollView name="TrackListView" view-data-key="TrackListView" mode="VerticalAndHorizontal" style="height: 181px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(34, 34, 34); border-right-color: rgb(34, 34, 34); border-top-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34); margin-top: 4px; margin-left: 2px; margin-right: 2px; margin-bottom: 0;" />
+    <ui:ScrollView name="ClipInfo" view-data-key="ClipInfo" style="height: 206px; margin-left: 2px; margin-right: 2px; margin-top: 4px; margin-bottom: 4px; border-left-color: rgb(34, 34, 34); border-right-color: rgb(34, 34, 34); border-top-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;" />
+</ui:UXML>
